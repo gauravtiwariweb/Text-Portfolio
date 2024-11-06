@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'founder';
+    src: url("FoundersGroteskCondensed-Bold.ttf");
+}
+@font-face {
+    font-family: cardin;
+    src: url("cardinalfruitweb-regular.ttf");
+}
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#first {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#first h1{
+    font-family: "cardin";
+    letter-spacing: 0.3vw ;
+    word-spacing: 0.3vw;
+    font-size: 9vw;
+    overflow: hidden;
+
+}
+#first h1 span{
+    display: inline-block;
+}
+#main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+}
+
+#main #top {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    overflow: hidden;
+    z-index: 9;
+    background-color: #fff;
+}
+
+#main h1 {
+    font-size: 22vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'founder';
+}
+
+#main #center {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    transform-origin: center;
+    color: #fff;
+}
+
+#center .content{
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "cardin";
+    margin-top: 100vh;
+    position: absolute;
+    gap: 2vw;
+}
+.content p{
+    font-size: 1.2vw;
+    width: 80%;
+    text-align: center;
+    font-family: "gilroy";
+}
+
+#main #bottom {
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.top-h1{
+    bottom: 50%;
+}
+.bottom-h1{
+    top: -6% !important;
+}
+#three{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+}
+
+#three h1{
+    font-size: 20vw;
+    font-family: "founder";
+    text-transform: uppercase;
+}
